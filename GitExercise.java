@@ -7,7 +7,7 @@ public class GitExercise {
         System.out.println("==============================");
         System.out.println("1.加密\n2.解密\n3.退出");
         System.out.println("请选择操作(输入序号)：");
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);//输入序号
         int sn = sc.nextInt();
         if(sn==1){
             System.out.println("请输入要加密的数字密码：");
